@@ -1,0 +1,15 @@
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\bin\Debug\net8.0\Survey.exe
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\bin\Debug\net8.0\Survey.deps.json
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\bin\Debug\net8.0\Survey.runtimeconfig.json
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\bin\Debug\net8.0\Survey.dll
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\bin\Debug\net8.0\Survey.pdb
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.AssemblyInfoInputs.cache
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.AssemblyInfo.cs
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.csproj.CoreCompileInputs.cache
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.sourcelink.json
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.dll
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\refint\Survey.dll
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.pdb
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\Survey.genruntimeconfig.cache
+C:\Users\Jgatta\source\repos\Jomigack\CSharp-Projects\PersonalProjects\Survey\Survey\obj\Debug\net8.0\ref\Survey.dll
