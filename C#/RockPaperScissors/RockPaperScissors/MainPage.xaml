@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <!---GOALS:
+    Create A program that has the user select from 3 choices: Rock Paper and scissors
+    Once the user chooses, A random number generator determines the choice of the bot, and gains points if wins
+    Keep Track of Wins
+    Make it look pretty?-->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RockPaperScissors.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <StackLayout Orientation="Vertical" Spacing="0" Padding="0, 0">
+                <Label
+                 Text="Choose your Weapon!"
+                 Style="{StaticResource Headline}"
+                 SemanticProperties.HeadingLevel="Level4"
+                 Margin="0"/>
+            </StackLayout>
+            <!---Output Of What happened-->
+            <StackLayout Orientation="Vertical">
+                <Label
+                    x:Name="RoundOutput"
+                 Text="The Details of the Fight Will be Given Here!"
+                 Style="{StaticResource SubHeadline}"
+                    TextColor="CornflowerBlue"
+                 SemanticProperties.HeadingLevel="Level4"
+                 Margin="0"/>
+            </StackLayout>
+            <FlexLayout  x:Name="UserWeapons" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" IsVisible="True">
+
+                <!-- Rock  (For images you do not need the whole source, just the image name and in the properties set it to MauiImage-->
+                <StackLayout Orientation="Vertical" IsVisible="true">
+                    
+                    <Label
+             Text="Rock:"
+             TextColor="DimGrey"
+             BackgroundColor="#312B19"
+             Style="{StaticResource SubHeadline}"
+         ></Label>
+                    
+                    <ImageButton 
+             x:Name="Rock"
+             Clicked="ClickRock" 
+             Source="rock.png" 
+             MaximumWidthRequest="200" 
+             BorderColor="Transparent"
+             BackgroundColor="Transparent"
+             MaximumHeightRequest="200" 
+             HorizontalOptions="Center" 
+             VerticalOptions="Center"
+             Margin="30">
+                    </ImageButton>
+                </StackLayout>
+
+                <!-- Paper -->
+                <StackLayout Orientation="Vertical">
+                    <Label
+             Text="Paper:"
+             TextColor="Grey"
+             BackgroundColor="white"
+             Style="{StaticResource SubHeadline}"
+         ></Label>
+                    <ImageButton 
+             x:Name="Paper"
+             Clicked="ClickPaper" 
+             Source="paper.png" 
+             MaximumWidthRequest="200" 
+             BorderColor="Transparent"
+             BackgroundColor="Transparent"
+             MaximumHeightRequest="200" 
+             HorizontalOptions="Center" 
+             VerticalOptions="Center"
+             Margin="30">
+                    </ImageButton>
+                </StackLayout>
+
+                <!-- Scissors -->
+                <StackLayout Orientation="Vertical">
+                    <Label
+             Text="Scissors:"
+             TextColor="Red"
+             BackgroundColor="#013147"
+             Style="{StaticResource SubHeadline}"
+         ></Label>
+                    <ImageButton 
+             x:Name="Scissors"
+             Clicked="ClickScissors" 
+             Source="scissors.png" 
+             MaximumWidthRequest="200" 
+             BorderColor="Transparent"
+             BackgroundColor="Transparent"
+             MaximumHeightRequest="200" 
+             HorizontalOptions="Center" 
+             VerticalOptions="Center"
+             Margin="30">
+                    </ImageButton>
+                </StackLayout>
+            </FlexLayout>
+            <!---RoundNumber Output-->
+            <StackLayout Orientation="Vertical">
+                <Label
+                     x:Name="RoundNumOutput"
+                  Text="Round Number: 1"
+                  Style="{StaticResource Headline}"
+                  SemanticProperties.HeadingLevel="Level4"
+                  Margin="0"/>     
+            </StackLayout>
+            <!---Stat Grid-->
+            <Grid HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- First Label -->
+                <Label Grid.Row="0" Grid.Column="0" Text="User Wins: 0" x:Name="UWin" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level4" Margin="10"/>
+
+                <!-- Second Label -->
+                <Label Grid.Row="0" Grid.Column="1" Text="User Losses: 0" x:Name="ULoss" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level4" Margin="10"/>
+
+                <!-- Third Label -->
+                <Label Grid.Row="1" Grid.Column="0" Text="AI Wins: 0" x:Name="AIWin" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level4" Margin="10"/>
+
+                <!-- Fourth Label -->
+                <Label Grid.Row="1" Grid.Column="1" Text="AI Loss: 0" x:Name="AILoss" Style="{StaticResource SubHeadline}" SemanticProperties.HeadingLevel="Level4" Margin="10"/>
+            </Grid>
+               
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
